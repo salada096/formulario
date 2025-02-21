@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas TechStay</title>
+    
+</head>
+<body>
+    <Header>
+        <h1>Reservas para o coworking</h1>
+        <p>Você está interessado em reservar o novo de coworking?</p>
+        <p>Vamos começar o processo de cadastro!</p>
+    </Header>
+
+    <main>
+        <h2>Cadastro do Cliente</h2>
+        <section>
+            <h3> Nome completo:</h3>
+            <form>
+                <input type="text" id="p1" name="pergunta1" placeholder="Digite aqui...">
+
+               
+            </form>
+        </section>
+        <h3>Digite seu email:</h3>
+        <input type="email" id="e1" name="pergunta2" pattern=".+@example\.com" required placeholder="exemplo@exemplo.com">
+        <section>
+            <h3>Digite seu telefone:</h3>
+            <input type="tel" id="Tel" name="telefone" pattern="\(\d{2}\) \d{5}-\d{4}" required placeholder="(xx)xxxx-xxxx"> 
+            <span class="validity"></span>          
+        </section>
+        <section>
+            <h3> Data de nascimento:</h3>
+            <input type="date" id="tel" name="telefone" placeholder="Data de nascimento"><br>
+
+        </section>
+        <section>
+            <br>
+            <input type="checkbox" id="ch" name="validacao">
+            <label for="validacao"> Aceito os Termos</label>
+        </section>
+        <section>
+            <H2>Criação do formulario</H2>
+            <p>Campos obrigatorios:</p>
+            <h3>Data de reserva:</h3>
+            <input type="date" id="resr" name="datareserva" min="2025-02-" >
+
+        </section>
+        <section>
+            <H3>Horario de inicio e termino</H3>
+            <input type="time" ID="time" name="horario">
+            <input type="time" id="time" name="horario">
+        </section>
+
+        <section>
+            <h3>Tipos da sala</h3>
+            <select id="tt" name="tt">
+            <option value="Reunião"> Reunião</option>
+            <option value="Treinammneto">Treinamento</option>
+            <option value="Individual">Individual</option>
+            </select>
+        </section>
+        <section>
+            <h3>Numero de participantes:</h3>
+            <input type="number" id="num" name="num" min="1" placeholder="12">
+            
+        </section>
+        <section>
+            <H2>Feedback</H2>
+            <p>Criterios obrigatorios</p>
+            <h3> Nome completo:</h3>
+            <form>
+                <input type="text" id="p1" name="pergunta1" placeholder="Digite aqui...">
+            
+        </section>
+        <section>
+            <h3>Comentarios:</h3>
+            <textarea placeholder="comentario..."></textarea>
+
+        </section>
+        <section>
+            <h3>Satisfação</h3>
+            <input type="radio" id="ra" name="ra">
+            <label for="ra">01</label><BR>
+                <input type="radio" id="ra" name="ra">
+            <label for="ra">02</label><BR>
+                <input type="radio" id="ra" name="ra">
+            <label for="ra">03</label><BR>
+                <input type="radio" id="ra" name="ra">
+            <label for="ra">04</label><BR>
+                <input type="radio" id="ra" name="ra">
+            <label for="ra">05</label><BR>
+                <input type="radio" id="ra" name="ra">
+            <label for="ra">06</label><BR>
+                <input type="radio" id="ra" name="ra">
+            <label for="ra">07</label><BR>
+                <input type="radio" id="ra" name="ra">
+            <label for="ra">08</label><BR> 
+                <input type="radio" id="ra" name="ra">
+            <label for="ra">09</label><BR>
+                <input type="radio" id="ra" name="ra">
+            <label for="ra">10</label><BR>
+            
+
+
+        </section>
+        
+    </main>
+    
+</body>
+</html>
